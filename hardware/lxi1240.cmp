@@ -1,0 +1,11 @@
+Cmp-Mod V01 Created by PcbNew   date = Fri 03 Nov 2017 06:00:00 PM PDT
+
+BeginCmp
+TimeStamp = 59FD1632
+Path = /59FD0F97
+Reference = J230;
+ValeurCmp = 1240COMM;
+IdModule  = 1240comm:1240COMM;
+EndCmp
+
+EndListe
