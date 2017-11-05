@@ -545,4 +545,72 @@ Wire Wire Line
 	5300 4300 5300 6300
 Wire Wire Line
 	5300 6300 4700 6300
+$Comp
+L Screw_Terminal_01x01 H1
+U 1 1 59FEB8E7
+P 6350 5800
+F 0 "H1" H 6350 5900 50  0000 C CNN
+F 1 "Mount" H 6350 5700 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 6350 5800 50  0001 C CNN
+F 3 "" H 6350 5800 50  0001 C CNN
+	1    6350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x01 H2
+U 1 1 59FEB959
+P 6350 6100
+F 0 "H2" H 6350 6200 50  0000 C CNN
+F 1 "Mount" H 6350 6000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 6350 6100 50  0001 C CNN
+F 3 "" H 6350 6100 50  0001 C CNN
+	1    6350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x01 H3
+U 1 1 59FEB991
+P 6350 6400
+F 0 "H3" H 6350 6500 50  0000 C CNN
+F 1 "Mount" H 6350 6300 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 6350 6400 50  0001 C CNN
+F 3 "" H 6350 6400 50  0001 C CNN
+	1    6350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x01 H4
+U 1 1 59FEB9B8
+P 6350 6700
+F 0 "H4" H 6350 6800 50  0000 C CNN
+F 1 "Mount" H 6350 6600 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 6350 6700 50  0001 C CNN
+F 3 "" H 6350 6700 50  0001 C CNN
+	1    6350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth_Protective #PWR011
+U 1 1 59FEBA57
+P 6050 6950
+F 0 "#PWR011" H 6300 6700 50  0001 C CNN
+F 1 "Earth_Protective" H 6500 6800 50  0001 C CNN
+F 2 "" H 6050 6850 50  0001 C CNN
+F 3 "" H 6050 6850 50  0001 C CNN
+	1    6050 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5800 6050 5800
+Wire Wire Line
+	6050 5800 6050 6950
+Wire Wire Line
+	6150 6100 6050 6100
+Connection ~ 6050 6100
+Wire Wire Line
+	6150 6400 6050 6400
+Connection ~ 6050 6400
+Wire Wire Line
+	6150 6700 6050 6700
+Connection ~ 6050 6700
 $EndSCHEMATC
