@@ -4,4 +4,8 @@ $CMP 1240COMM
 D Board-edge connector of a plug-in "Comm Pack" module for the Tektronix 1240 logic analyzer.
 $ENDCMP
 #
+$CMP 1240COMM_EXT
+D Breakout pin header for the board-edge connector of a Tek 1240 Comm Pack. Intended for use with 80-conductor ATA ribbon cables.
+$ENDCMP
+#
 #End Doc Library
