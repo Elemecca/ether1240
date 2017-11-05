@@ -38,12 +38,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "LXI Comm Pack for Tektronix 1240"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "© 2017 Sam Hanes <sam@maltera.com>"
+Comment1 "Licensed under CERN OHL v1.2 or later"
+Comment2 "https://github.com/Elemecca/lxi1240"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -295,17 +295,6 @@ Wire Bus Line
 	2800 5800 2800 7350
 Wire Wire Line
 	1850 7350 1850 7300
-$Comp
-L 1240COMM_EXT J2
-U 1 1 59FE6D32
-P 4100 6000
-F 0 "J2" V 4200 6000 60  0000 C CNN
-F 1 "1240COMM_EXT" V 4100 6000 60  0000 C CNN
-F 2 "1240comm:ATA_HEADER" H 4500 7650 60  0001 C CNN
-F 3 "" H 4500 7650 60  0001 C CNN
-	1    4100 6000
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	3200 5700 3100 5800
 Entry Wire Line
@@ -613,4 +602,15 @@ Connection ~ 6050 6400
 Wire Wire Line
 	6150 6700 6050 6700
 Connection ~ 6050 6700
+$Comp
+L 1240COMM_EXT J2
+U 1 1 59FF3E76
+P 4100 6000
+F 0 "J2" V 4200 6000 60  0000 C CNN
+F 1 "1240COMM_EXT" V 4100 6000 60  0000 C CNN
+F 2 "" H 4500 7650 60  0001 C CNN
+F 3 "" H 4500 7650 60  0001 C CNN
+	1    4100 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
