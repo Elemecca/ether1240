@@ -12,17 +12,22 @@
  */
 
 
-module box(x, y, z, i) {
+module box(size, slope) {
+  x = size[0] / 2;
+  y = size[1] / 2;
+  z = size[2];
+  i = slope * z;
+
   polyhedron(
     points = [
-      [0 + i, 0 + i, 0], // 0
-      [x - i, 0 + i, 0], // 1
-      [x - i, y - i, 0], // 2
-      [0 + i, y - i, 0], // 3
-      [0,     0,     z], // 4
-      [x,     0,     z], // 5
-      [x,     y,     z], // 6
-      [0,     y,     z], // 7
+      [-x + i, -y + i, 0], // 0
+      [ x - i, -y + i, 0], // 1
+      [ x - i,  y - i, 0], // 2
+      [-x + i,  y - i, 0], // 3
+      [-x,     -y,     z], // 4
+      [ x,     -y,     z], // 5
+      [ x,      y,     z], // 6
+      [-x,      y,     z], // 7
     ],
     faces = [
       [0, 1, 2, 3],
@@ -39,13 +44,15 @@ sizeX = 2.610;
 sizeY = 4.060;
 sizeZ = 0.740;
 
-inset = sizeX - 2.560;
+sizeX2 = 2.560;
 thick = 0.055;
 
+slope = (sizeX - sizeX2) / sizeZ;
+
 difference() {
-  box(sizeX, sizeY, sizeZ, inset);
+  box([sizeX, sizeY, sizeZ], slope);
 
   t2 = thick * 2;
-  translate([thick, thick, thick])
-    box(sizeX - t2, sizeY - t2, sizeZ, inset);
+  translate([0, 0, thick])
+    box([sizeX - t2, sizeY - t2, sizeZ], slope);
 }
