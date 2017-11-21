@@ -1,5 +1,5 @@
 This directory contains the hardware design documentation for the
-LXI1240 project. The Schematic and PCB designs are maintained with
+Ether1240 project. The Schematic and PCB designs are maintained with
 the open source [KiCad] EDA package.
 
 [KiCad]: http://kicad-pcb.org/

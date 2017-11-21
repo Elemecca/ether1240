@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:1240comm
+LIBS:ether1240
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,19 +32,18 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:microchip_pic16mcu
-LIBS:lxi1240-cache
+LIBS:commpack-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "LXI Comm Pack for Tektronix 1240"
+Title "Ethernet Comm Pack for Tektronix 1240"
 Date ""
 Rev ""
 Comp "© 2017 Sam Hanes <sam@maltera.com>"
 Comment1 "Licensed under CERN OHL v1.2 or later"
-Comment2 "https://github.com/Elemecca/lxi1240"
+Comment2 "https://github.com/Elemecca/ether1240"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -54,7 +53,7 @@ U 1 1 59FE52B4
 P 1650 6000
 F 0 "J1" V 1550 6000 60  0000 C CNN
 F 1 "1240COMM" V 1650 6000 60  0000 C CNN
-F 2 "1240comm:1240COMM" H 2050 7650 60  0001 C CNN
+F 2 "ether1240:1240COMM" H 2050 7650 60  0001 C CNN
 F 3 "" H 2050 7650 60  0001 C CNN
 	1    1650 6000
 	1    0    0    -1  
@@ -363,7 +362,7 @@ U 1 1 59FEB8E7
 P 11000 5050
 F 0 "H1" H 11000 5150 50  0000 C CNN
 F 1 "Mount" H 11000 4950 50  0000 C CNN
-F 2 "1240comm:MountingHole_140mil_Pad" H 11000 5050 50  0001 C CNN
+F 2 "ether1240:MountingHole_140mil_Pad" H 11000 5050 50  0001 C CNN
 F 3 "" H 11000 5050 50  0001 C CNN
 	1    11000 5050
 	1    0    0    -1  
@@ -374,7 +373,7 @@ U 1 1 59FEB959
 P 11000 5350
 F 0 "H2" H 11000 5450 50  0000 C CNN
 F 1 "Mount" H 11000 5250 50  0000 C CNN
-F 2 "1240comm:MountingHole_140mil_Pad" H 11000 5350 50  0001 C CNN
+F 2 "ether1240:MountingHole_140mil_Pad" H 11000 5350 50  0001 C CNN
 F 3 "" H 11000 5350 50  0001 C CNN
 	1    11000 5350
 	1    0    0    -1  
@@ -385,7 +384,7 @@ U 1 1 59FEB991
 P 11000 5650
 F 0 "H3" H 11000 5750 50  0000 C CNN
 F 1 "Mount" H 11000 5550 50  0000 C CNN
-F 2 "1240comm:MountingHole_140mil_Pad" H 11000 5650 50  0001 C CNN
+F 2 "ether1240:MountingHole_140mil_Pad" H 11000 5650 50  0001 C CNN
 F 3 "" H 11000 5650 50  0001 C CNN
 	1    11000 5650
 	1    0    0    -1  
@@ -396,7 +395,7 @@ U 1 1 59FEB9B8
 P 11000 5950
 F 0 "H4" H 11000 6050 50  0000 C CNN
 F 1 "Mount" H 11000 5850 50  0000 C CNN
-F 2 "1240comm:MountingHole_140mil_Pad" H 11000 5950 50  0001 C CNN
+F 2 "ether1240:MountingHole_140mil_Pad" H 11000 5950 50  0001 C CNN
 F 3 "" H 11000 5950 50  0001 C CNN
 	1    11000 5950
 	1    0    0    -1  
@@ -418,7 +417,7 @@ U 1 1 5A02D637
 P 3650 6000
 F 0 "J2" V 3750 6000 60  0000 C CNN
 F 1 "1240COMM_EXT" V 3650 6000 60  0000 C CNN
-F 2 "1240comm:ATA_HEADER" H 4050 7650 60  0001 C CNN
+F 2 "ether1240:ATA_HEADER" H 4050 7650 60  0001 C CNN
 F 3 "" H 4050 7650 60  0001 C CNN
 	1    3650 6000
 	1    0    0    -1  
@@ -1329,7 +1328,7 @@ U 1 1 5A030045
 P 6100 6400
 F 0 "U3" H 6200 5900 50  0000 C CNN
 F 1 "27C128" H 6300 5800 50  0000 C CNN
-F 2 "" H 6100 6400 50  0001 C CNN
+F 2 "Housings_DIP:DIP-28_W15.24mm_Socket" H 6100 6400 50  0001 C CNN
 F 3 "" H 6100 6400 50  0001 C CNN
 	1    6100 6400
 	1    0    0    -1  

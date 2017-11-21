@@ -1,4 +1,4 @@
-update=Wed 08 Nov 2017 02:51:42 AM PST
+update=Tue 21 Nov 2017 02:25:54 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,13 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=1240comm
+LibName1=ether1240
 LibName2=power
 LibName3=device
 LibName4=switches
@@ -62,4 +60,5 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=microchip_pic16mcu
+[general]
+version=1
