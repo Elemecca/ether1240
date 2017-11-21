@@ -23,4 +23,9 @@ D 8bits Buffer/Line Driver 3 state Out
 K TTL BUFFER 3State BUS
 $ENDCMP
 #
+$CMP L8BE-1G1T-91A
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
 #End Doc Library
