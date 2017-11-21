@@ -13,7 +13,18 @@ analyzers that provides a few interface options:
 
 ## Copyright and License
 
-All files in this repository are copyright 2017 Sam Hanes.
+All files in this repository (with the exception of third-party
+documentation under `/docs/datasheets/`) are copyright 2017 Sam Hanes.
+
+
+The documentation under `/docs/` (with the exception of third-party
+documentation under `/docs/datasheets/`) is licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 International License][CC]
+(CC-BY-SA). See `/docs/README.md` for details and `/docs/LICENSE.txt`
+for the full license text.
+
+[CC]: https://creativecommons.org/licenses/by-sa/4.0/
+
 
 The hardware design documentation under `/hardware/` is licensed under
 the [CERN Open Hardware Licence][OHL] version 1.2 or newer.
