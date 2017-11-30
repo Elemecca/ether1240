@@ -28,4 +28,8 @@ D RJ45 with transformer + leds WURTH
 K RJ45
 $ENDCMP
 #
+$CMP Omega2+
+D Onion Omega2+ System-on-Module
+$ENDCMP
+#
 #End Doc Library
