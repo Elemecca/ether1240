@@ -14,7 +14,8 @@ analyzers that provides a few interface options:
 ## Copyright and License
 
 All files in this repository (with the exception of third-party
-documentation under `/docs/datasheets/`) are copyright 2017 Sam Hanes.
+documentation under `/docs/datasheets/` and ROM images in `/reverse/`)
+are copyright 2017 Sam Hanes.
 
 
 The documentation under `/docs/` (with the exception of third-party
