@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ether1240)(type Legacy)(uri ${KIPRJMOD}/ether1240.lib)(options "")(descr ""))
+)
