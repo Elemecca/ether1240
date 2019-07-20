@@ -242,7 +242,7 @@
     (add_net VCC)
   )
 
-  (module ether1240:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A0258FD) (tstamp 5A02635E)
+  (module local:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A0258FD) (tstamp 5A02635E)
     (at 210.82 113.665)
     (descr "Mounting Hole 140mil")
     (tags "mounting hole 140mil")
@@ -404,7 +404,7 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
-  (module ether1240:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A025926) (tstamp 5A026366)
+  (module local:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A025926) (tstamp 5A026366)
     (at 125.73 113.665)
     (descr "Mounting Hole 140mil")
     (tags "mounting hole 140mil")
@@ -426,7 +426,7 @@
       (net 2 Earth_Protective))
   )
 
-  (module ether1240:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A02591F) (tstamp 5A02636E)
+  (module local:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A02591F) (tstamp 5A02636E)
     (at 125.73 64.135)
     (descr "Mounting Hole 140mil")
     (tags "mounting hole 140mil")
@@ -448,7 +448,7 @@
       (net 2 Earth_Protective))
   )
 
-  (module ether1240:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A02590E) (tstamp 5A026376)
+  (module local:MountingHole_140mil_Pad (layer F.Cu) (tedit 5A02590E) (tstamp 5A026376)
     (at 210.82 64.135)
     (descr "Mounting Hole 140mil")
     (tags "mounting hole 140mil")
@@ -470,7 +470,7 @@
       (net 2 Earth_Protective))
   )
 
-  (module ether1240:Omega2 (layer F.Cu) (tedit 5A200AA5) (tstamp 5A2EE51A)
+  (module local:Omega2 (layer F.Cu) (tedit 5A200AA5) (tstamp 5A2EE51A)
     (at 160.79 95.59 90)
     (path /5A1FF68F)
     (fp_text reference A1 (at 0 -14.5 90) (layer F.SilkS)
@@ -811,7 +811,7 @@
     )
   )
 
-  (module ether1240:1240COMM locked (layer F.Cu) (tedit 5A029E27) (tstamp 5A2F0AAD)
+  (module local:1240COMM locked (layer F.Cu) (tedit 5A029E27) (tstamp 5A2F0AAD)
     (at 214.249 88.9)
     (path /59FE52B4)
     (fp_text reference J1 (at 2.54 0 90) (layer F.SilkS)
@@ -935,7 +935,7 @@
       (net 1 GND))
   )
 
-  (module ether1240:L8BE-1G1T-91A (layer F.Cu) (tedit 5A1447CC) (tstamp 5A2F0AD7)
+  (module local:L8BE-1G1T-91A (layer F.Cu) (tedit 5A1447CC) (tstamp 5A2F0AD7)
     (at 121.92 98.425 270)
     (path /5A14541E)
     (fp_text reference J3 (at 0.0254 -23.9776 270) (layer F.SilkS)
@@ -1048,7 +1048,7 @@
       (net 55 /E-RX+))
   )
 
-  (module ether1240:PLCC-32_THT-Socket (layer F.Cu) (tedit 5A2EE83F) (tstamp 5B935914)
+  (module local:PLCC-32_THT-Socket (layer F.Cu) (tedit 5A2EE83F) (tstamp 5B935914)
     (at 202.565 90.678)
     (descr "PLCC, 32 pins, through hole")
     (tags "plcc leaded")
@@ -1154,7 +1154,7 @@
     )
   )
 
-  (module ether1240:OSHW locked (layer B.Cu) (tedit 0) (tstamp 5A2F8364)
+  (module local:OSHW locked (layer B.Cu) (tedit 0) (tstamp 5A2F8364)
     (at 170.18 102.87 180)
     (fp_text reference G*** (at 0 -6.73608 180) (layer B.SilkS) hide
       (effects (font (size 0.57912 0.57912) (thickness 0.1143)) (justify mirror))
@@ -1233,7 +1233,7 @@
       (xy 4.22656 -5.3721) (xy 4.0386 -5.54482) (xy 3.90652 -5.66166) (xy 3.85064 -5.70484)) (layer B.SilkS) (width 0.00254))
   )
 
-  (module ether1240:Bonsai locked (layer F.Cu) (tedit 59FF254D) (tstamp 5A2F83D4)
+  (module local:Bonsai locked (layer F.Cu) (tedit 59FF254D) (tstamp 5A2F83D4)
     (at 155.575 104.14)
     (descr "Imported from Bonsai.svg")
     (tags svg2mod)
