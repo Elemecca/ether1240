@@ -136,116 +136,6 @@ Text Label 2200 6900 0    60   ~ 0
 H-A12
 Text Label 2200 7000 0    60   ~ 0
 H-A13
-Entry Wire Line
-	2750 5700 2650 5800
-Entry Wire Line
-	2750 5800 2650 5900
-Entry Wire Line
-	2750 5900 2650 6000
-Entry Wire Line
-	2750 6000 2650 6100
-Entry Wire Line
-	2750 6100 2650 6200
-Entry Wire Line
-	2750 6200 2650 6300
-Entry Wire Line
-	2750 6300 2650 6400
-Entry Wire Line
-	2750 6400 2650 6500
-Entry Wire Line
-	2750 6500 2650 6600
-Entry Wire Line
-	2750 6600 2650 6700
-Entry Wire Line
-	2750 6700 2650 6800
-Entry Wire Line
-	2750 6800 2650 6900
-Entry Wire Line
-	2750 6900 2650 7000
-Entry Wire Line
-	2750 7000 2650 7100
-Text Label 3100 5700 2    60   ~ 0
-H-A0
-Text Label 3100 5800 2    60   ~ 0
-H-A1
-Text Label 3100 5900 2    60   ~ 0
-H-A2
-Text Label 3100 6000 2    60   ~ 0
-H-A3
-Text Label 3100 6100 2    60   ~ 0
-H-A4
-Text Label 3100 6200 2    60   ~ 0
-H-A5
-Text Label 3100 6300 2    60   ~ 0
-H-A6
-Text Label 3100 6400 2    60   ~ 0
-H-A7
-Text Label 3100 6500 2    60   ~ 0
-H-A8
-Text Label 3100 6600 2    60   ~ 0
-H-A9
-Text Label 3100 6700 2    60   ~ 0
-H-A10
-Text Label 3100 6800 2    60   ~ 0
-H-A11
-Text Label 3100 6900 2    60   ~ 0
-H-A12
-Text Label 3100 7000 2    60   ~ 0
-H-A13
-Entry Wire Line
-	4750 5300 4650 5400
-Entry Wire Line
-	4750 5400 4650 5500
-Entry Wire Line
-	4750 5500 4650 5600
-Entry Wire Line
-	4750 5600 4650 5700
-Entry Wire Line
-	4750 5700 4650 5800
-Entry Wire Line
-	4750 5800 4650 5900
-Entry Wire Line
-	4750 5900 4650 6000
-Entry Wire Line
-	4750 6000 4650 6100
-Text Label 4550 5400 2    60   ~ 0
-H-D0
-Text Label 4550 5500 2    60   ~ 0
-H-D1
-Text Label 4550 5600 2    60   ~ 0
-H-D2
-Text Label 4550 5700 2    60   ~ 0
-H-D3
-Text Label 4550 5800 2    60   ~ 0
-H-D4
-Text Label 4550 5900 2    60   ~ 0
-H-D5
-Text Label 4550 6000 2    60   ~ 0
-H-D6
-Text Label 4550 6100 2    60   ~ 0
-H-D7
-$Comp
-L power:GND #PWR11
-U 1 1 59FE6FF1
-P 3850 7400
-F 0 "#PWR11" H 3850 7150 50  0001 C CNN
-F 1 "GND" H 3850 7250 50  0000 C CNN
-F 2 "" H 3850 7400 50  0001 C CNN
-F 3 "" H 3850 7400 50  0001 C CNN
-	1    3850 7400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:Earth_Protective #PWR12
-U 1 1 59FE6FF7
-P 4100 7400
-F 0 "#PWR12" H 4350 7150 50  0001 C CNN
-F 1 "Earth_Protective" H 4550 7250 50  0001 C CNN
-F 2 "" H 4100 7300 50  0001 C CNN
-F 3 "" H 4100 7300 50  0001 C CNN
-	1    4100 7400
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x01 H1
 U 1 1 59FEB8E7
@@ -302,7 +192,7 @@ F 3 "" H 8950 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 550  4400 0    60   ~ 0
-Host Bus Connectors
+Host Bus Connector
 $Comp
 L Regulator_Linear:AP1117-33 U4
 U 1 1 5A02C2E2
@@ -398,17 +288,6 @@ $EndComp
 NoConn ~ 8050 4600
 NoConn ~ 8050 4100
 NoConn ~ 8050 4200
-$Comp
-L ether1240:1240COMM_EXT J2
-U 1 1 5A02D637
-P 3650 6000
-F 0 "J2" V 3750 6000 60  0000 C CNN
-F 1 "1240COMM_EXT" V 3650 6000 60  0000 C CNN
-F 2 "ether1240:ATA_HEADER" H 4050 7650 60  0001 C CNN
-F 3 "" H 4050 7650 60  0001 C CNN
-	1    3650 6000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1450 4800
 $Comp
 L ether1240:1240COMM J1
@@ -596,17 +475,6 @@ F 3 "" H 1550 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR10
-U 1 1 5A2F4D96
-P 3850 4800
-F 0 "#PWR10" H 3850 4650 50  0001 C CNN
-F 1 "VCC" H 3850 4950 50  0000 C CNN
-F 2 "" H 3850 4800 50  0001 C CNN
-F 3 "" H 3850 4800 50  0001 C CNN
-	1    3850 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR15
 U 1 1 5A2F4DC6
 P 5450 7000
@@ -672,8 +540,6 @@ F 3 "" H 2150 3900 50  0001 C CNN
 	1    2150 3900
 	1    0    0    -1  
 $EndComp
-Text Label 2200 4550 0    60   ~ 0
-H-FREQ
 NoConn ~ 6350 4000
 NoConn ~ 6350 4100
 NoConn ~ 6350 4200
@@ -1061,12 +927,6 @@ Connection ~ 6500 7000
 Connection ~ 2150 3600
 Connection ~ 1250 3600
 Wire Wire Line
-	3950 4550 3950 4800
-Wire Wire Line
-	1350 4550 3950 4550
-Wire Wire Line
-	1350 4800 1350 4550
-Wire Wire Line
 	6150 7000 6300 7000
 Wire Wire Line
 	6350 4400 5950 4400
@@ -1225,16 +1085,6 @@ Wire Wire Line
 	8850 5900 9450 5900
 Wire Wire Line
 	8050 4000 8050 3800
-Wire Wire Line
-	3150 5500 2150 5500
-Wire Wire Line
-	2150 5400 3150 5400
-Wire Wire Line
-	2150 5300 3150 5300
-Wire Wire Line
-	2150 5200 3150 5200
-Wire Wire Line
-	2150 5100 3150 5100
 Connection ~ 6300 7000
 Wire Wire Line
 	6300 7050 6300 7000
@@ -1298,67 +1148,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 7350 1200 7400
 Wire Wire Line
-	3150 5700 2750 5700
-Wire Wire Line
-	3150 5800 2750 5800
-Wire Wire Line
-	3150 5900 2750 5900
-Wire Wire Line
-	3150 6000 2750 6000
-Wire Wire Line
-	3150 6100 2750 6100
-Wire Wire Line
-	3150 6200 2750 6200
-Wire Wire Line
-	3150 6300 2750 6300
-Wire Wire Line
-	3150 6400 2750 6400
-Wire Wire Line
-	3150 6500 2750 6500
-Wire Wire Line
-	3150 6600 2750 6600
-Wire Wire Line
-	3150 6700 2750 6700
-Wire Wire Line
-	3150 6800 2750 6800
-Wire Wire Line
-	3150 6900 2750 6900
-Wire Wire Line
-	3150 7000 2750 7000
-Wire Wire Line
-	4250 5400 4650 5400
-Wire Wire Line
-	4250 5500 4650 5500
-Wire Wire Line
-	4250 5600 4650 5600
-Wire Wire Line
-	4250 5700 4650 5700
-Wire Wire Line
-	4250 5800 4650 5800
-Wire Wire Line
-	4250 5900 4650 5900
-Wire Wire Line
-	4250 6000 4650 6000
-Wire Wire Line
-	4250 6100 4650 6100
-Wire Wire Line
-	3850 7300 3850 7400
-Wire Wire Line
-	3950 7300 3950 7350
-Wire Wire Line
-	3950 7350 4100 7350
-Wire Wire Line
-	4100 7350 4100 7400
-Wire Wire Line
-	650  6300 650  7700
-Wire Wire Line
-	4300 7700 4300 6300
-Wire Wire Line
-	4300 6300 4250 6300
-Wire Wire Line
 	650  6300 1050 6300
-Wire Wire Line
-	650  7700 4300 7700
 Wire Notes Line
 	4900 4250 500  4250
 Wire Wire Line
@@ -1488,10 +1278,31 @@ Wire Wire Line
 	9250 750  9800 750 
 Wire Wire Line
 	9250 950  9250 1250
+Entry Wire Line
+	550  6200 650  6300
+Wire Wire Line
+	2150 5100 2550 5100
+Wire Wire Line
+	2150 5200 2550 5200
+Wire Wire Line
+	2150 5300 2550 5300
+Wire Wire Line
+	2150 5400 2550 5400
+Wire Wire Line
+	2150 5500 2550 5500
+Entry Wire Line
+	2550 5100 2650 5200
+Entry Wire Line
+	2550 5200 2650 5300
+Entry Wire Line
+	2550 5300 2650 5400
+Entry Wire Line
+	2550 5400 2650 5500
+Entry Wire Line
+	2550 5500 2650 5600
+NoConn ~ 1350 4800
 Wire Bus Line
-	550  5050 550  6000
+	550  5050 550  6200
 Wire Bus Line
-	4750 5050 4750 6000
-Wire Bus Line
-	2650 5800 2650 7350
+	2650 5200 2650 7350
 $EndSCHEMATC
