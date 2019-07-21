@@ -1,0 +1,5 @@
+# Ghidra working and backup files
+*.rep/**/*.bak
+*.rep/**/tmp*
+*.lock
+*.lock~
