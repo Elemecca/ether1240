@@ -3,6 +3,8 @@
 This directory contains the working files for reverse engineering the
 interface between the comm pack and the IO processor.
 
+- `tek1241.*` is a Ghidra project for reverse engineering the ROMs
+
 - `chargen.py` generates an SVG map of the 1240's proprietary character
   set from the character generation ROM image
 
@@ -18,7 +20,7 @@ interface between the comm pack and the IO processor.
 | 160-3074-00 | A10 U170   | 4000-5FFF | IO Processor 3
 | 160-3075-00 | A10 U180   | 6000-7FFF | IO Processor 4
 | 160-3076-00 | A10 U185   | 8000-9FFF | IO Processor 5
-| 160-3077-00 | A12 U175   | C000-DFFF | Display (1241 only)
+| 160-3077-00 | A12 U175   | E000-FFFF | Display (1241 only)
 | 160-3078-00 | A12 U130   | N/A       | Character Gen
 
 Only one of 160-1915-xx and 160-1916-xx will be present at once as they
